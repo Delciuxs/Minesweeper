@@ -1,0 +1,24 @@
+.header {
+  background-color: #46404f;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+  border-radius: 20px;
+  margin-top: 2rem;
+
+  .time-counter, .mines-counter{
+    width: 140px;
+  }
+
+  .dead-face, .win-face{
+    cursor: pointer;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    color: #00adb5;
+    text-align: center;
+  }
+}

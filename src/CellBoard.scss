@@ -1,0 +1,48 @@
+.board-cell{
+  width: 34Px;
+  height: 34px;
+  margin: 0.05rem;
+  background-color: #717073;
+  border-radius: 5px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.marked-cell{
+  background-color: #FAFAFA;
+}
+
+.number-cell{
+  font-size: 2rem;
+}
+.mine-cell, .flag-cell{
+  font-size: 1.5rem;
+}
+
+.number-1{
+  color: blue;
+}
+.number-2{
+  color: green;
+}
+.number-3{
+  color: red;
+}
+.number-4{
+  color: purple;
+}
+.number-5{
+  color: maroon;
+}
+.number-6{
+  color: turquoise;
+}
+.number-7{
+  color: black;
+}
+.number-8{
+  color: gray;
+}

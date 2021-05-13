@@ -1,0 +1,16 @@
+.title-flag {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  .flag {
+    border: 1px solid #3b6978;
+    padding: 0.5rem;
+  }
+  .flag-active {
+    color: white;
+    border: 1px solid #3b6978;
+    padding: 0.5rem;
+    background-color: #00adb5;
+  }
+}
