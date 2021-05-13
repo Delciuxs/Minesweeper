@@ -107,6 +107,10 @@ const Face = ({ gameOver, gameSettings, win, dispatchGame }) => {
           onClick={() => {
             dispatchGame({ type: ACTIONS.UPDATE_WIN, payload: { win: false } });
             dispatchGame({
+              type: ACTIONS.UPDATE_FLAGS_USED,
+              payload: { flagsUsed: 0 },
+            });
+            dispatchGame({
               type: ACTIONS.UPDATE_GAME_OVER,
               payload: { gameOver: false },
             });
