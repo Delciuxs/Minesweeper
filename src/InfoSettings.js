@@ -77,6 +77,10 @@ const Face = ({ gameOver, gameSettings, win, dispatchGame }) => {
             payload: { gameOver: false },
           });
           dispatchGame({
+            type: ACTIONS.UPDATE_FLAGS_USED,
+            payload: { flagsUsed: 0 },
+          });
+          dispatchGame({
             type: ACTIONS.UPDATE_COUNT_TIMER,
             payload: { countTimer: "000" },
           });
